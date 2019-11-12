@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/trunojoyo-assets/static/css/main.ab0c65ae.chunk.css",
+    "main.js": "/trunojoyo-assets/static/js/main.e348ea84.chunk.js",
+    "main.js.map": "/trunojoyo-assets/static/js/main.e348ea84.chunk.js.map",
+    "runtime-main.js": "/trunojoyo-assets/static/js/runtime-main.e8bdb429.js",
+    "runtime-main.js.map": "/trunojoyo-assets/static/js/runtime-main.e8bdb429.js.map",
+    "static/css/2.5c17b9f1.chunk.css": "/trunojoyo-assets/static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.9e41a25a.chunk.js": "/trunojoyo-assets/static/js/2.9e41a25a.chunk.js",
+    "static/js/2.9e41a25a.chunk.js.map": "/trunojoyo-assets/static/js/2.9e41a25a.chunk.js.map",
+    "index.html": "/trunojoyo-assets/index.html",
+    "precache-manifest.5588795615f8f4ce2746dca77830d4d4.js": "/trunojoyo-assets/precache-manifest.5588795615f8f4ce2746dca77830d4d4.js",
+    "service-worker.js": "/trunojoyo-assets/service-worker.js",
+    "static/css/2.5c17b9f1.chunk.css.map": "/trunojoyo-assets/static/css/2.5c17b9f1.chunk.css.map",
+    "static/css/main.ab0c65ae.chunk.css.map": "/trunojoyo-assets/static/css/main.ab0c65ae.chunk.css.map",
+    "static/media/graha.svg": "/trunojoyo-assets/static/media/graha.08dfa457.svg",
+    "static/media/trunojoyo-bow.svg": "/trunojoyo-assets/static/media/trunojoyo-bow.f49f769f.svg",
+    "static/media/trunojoyo-wob.svg": "/trunojoyo-assets/static/media/trunojoyo-wob.15e865df.svg",
+    "static/media/trunojoyo.svg": "/trunojoyo-assets/static/media/trunojoyo.3a10a823.svg",
+    "static/media/trunojoyo.png": "/trunojoyo-assets/static/media/trunojoyo.bfd008bd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8bdb429.js",
+    "static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.9e41a25a.chunk.js",
+    "static/css/main.ab0c65ae.chunk.css",
+    "static/js/main.e348ea84.chunk.js"
+  ]
+}
