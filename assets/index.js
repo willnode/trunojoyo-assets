@@ -318,5 +318,12 @@ export default {
 	}, {
 		title: "UKM-FP",
 		variants: []
+	}],
+	stories: [{
+		program: "Teknik Informatika",
+		angkatan: 2018,
+		links: {
+			"Wildan Mubarok": "https://memo.wellosoft.net/"
+		}
 	}]
 }

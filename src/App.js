@@ -9,7 +9,8 @@ function App() {
     <div class="App">
       <header class="App-header">
         <p>
-          High-Quality Media Resources untuk bahan desain seputar Universitas Trunojoyo Madura (Fair Use)
+          Media dan Link Resources untuk bahan desain dan story di sekitar Universitas Trunojoyo Madura<br/>
+          <i>Project WIP! Aku butuh kontribusi kalian (lihat <a href="https://github.com/willnode/trunojoyo-assets">README</a>) </i>
         </p>
       </header>
 
@@ -17,8 +18,8 @@ function App() {
         <TabList>
           <Tab>Logo</Tab>
           <Tab>Background</Tab>
-          <Tab>Resources</Tab>
-          <Tab>Arsip</Tab>
+          <Tab>Links</Tab>
+          <Tab>Stories</Tab>
         </TabList>
 
         <TabPanel>
@@ -62,8 +63,22 @@ function App() {
           </div>
         </TabPanel>
         <TabPanel>
-          <h2>Arsip Media</h2>
-          <p>Link Album, Gdrive untuk arsip setiap event di UTM</p>
+          <h2>List Story</h2>
+          <p>Daftar Blog Mahasiswa Aktif dan Alumni UTM (WIP)</p>
+          <div class="link-list">
+            {
+              assets.stories.map(link =>
+                <div>
+                  <h4>{link.program} - {link.angkatan}</h4>
+                  <div>
+                    {
+                      Object.keys(link.links).map(name => <span>{name}: <a href={link.links[name]}>{link.links[name]}</a> <br /></span>)
+                    }
+                  </div>
+                </div>
+              )
+            }
+          </div>
         </TabPanel>
       </Tabs>
     </div>

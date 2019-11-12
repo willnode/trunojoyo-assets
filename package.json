@@ -2,6 +2,7 @@
   "name": "trunojoyo-assets",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://wellosoft.net/trunojoyo-assets",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.11.0",
@@ -13,7 +14,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
+    "test": "react-app-rewired build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
