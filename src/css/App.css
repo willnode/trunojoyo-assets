@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: 18px;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.logo-list {
+  display: flex;
+  flex-direction: column;
+}
+.logo-tags button {
+  font-size: 0.5em;
+  background: transparent;
+  color: white;
+}
+.logo-variants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logo-variant {
+  width: 25%;
+  padding: 1em;
+}
+.logo-caption {
+  display: block;
+  font-size: 0.8em;
+  margin: .5em 0;
+}
+.logo-image {
+  width: 100%;
+  transition: all 0.2s;
+}
+.logo-image:hover {
+  box-shadow: 0 0 10px black;
+}
+.logo-download {
+  padding: 0.3em 0.5em;
+  border: 1px solid grey;
+  font-size: 0.7em;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+.logo-download:hover {
+  background-color: white;
+  color: #282c34;
+}
+.bgs .logo-variant {
+  width: 25%;
+  padding: 0.2em;
+}
+.link-list a {
+  color: gold;
+}
